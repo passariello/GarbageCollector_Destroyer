@@ -1,3 +1,4 @@
+<?php
 
 /*
 Created by Dario Passariello
@@ -40,3 +41,6 @@ function GarbageCollector(){
 	}
   gc_collect_cycles();
 }
+
+# Call using GarbageCollector() from begin of pages after all sessions or config
+?>
