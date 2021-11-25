@@ -6,8 +6,9 @@ Load the function at the begin of your site and use GarbageCollector() to call i
 This function make free memory from different stuff.
 
 usage:
-Put include at very end of your index.php
-(outside </html> is ok)
+Call using GarbageCollector() from begin of pages after all sessions or config
+
+(outside <html> is ok)
 
 ```
 ... your html + php + javascript ...
