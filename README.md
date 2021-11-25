@@ -12,5 +12,5 @@ Put include at very end of your index.php
 ```
 ... your html + php + javascript ...
 
-<?php include( 'GarbageCollector_Destroyer.php' )?>
+<?php include( 'garbageCollector.php' )?>
 ```
